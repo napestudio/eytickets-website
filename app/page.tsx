@@ -1,12 +1,11 @@
-
-import GestionEntradas from "@/components/gestion-entradas";
-import Header from "@/components/header";
+import HeroHome from "@/components/Hero";
 
 export default function Home() {
   return (
-    <>  
-      <Header />
-      <GestionEntradas />
+    <>
+      <header>
+        <HeroHome />
+      </header>
     </>
   );
 }
