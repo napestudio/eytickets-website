@@ -1,13 +1,9 @@
 "use client";
-import gsap from "gsap";
-import { ReactLenis, useLenis } from "lenis/react";
-import { useEffect, useRef } from "react";
 
-export const LenisScroller = ({ children }: { children: any }) => {
-  const lenisRef = useRef<any | null>(null);
+import { ReactLenis } from "lenis/react";
 
-  const lenis = useLenis(({ scroll }) => { });
-
+export const LenisScroller = ({ children }: { children: React.ReactNode }) => {
+  
   return (
     <ReactLenis root>
       {children}
