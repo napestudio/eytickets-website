@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import { LenisScroller } from "@/components/common/lenis-scroller";
+import { LenisScroller } from "@/providers/LenisScroller";
 
 export const metadata: Metadata = {
   title: "Eventos Ya",
@@ -17,9 +17,7 @@ export default function RootLayout({
     <html lang="es">
       <body>
         <main>
-          <LenisScroller>  
-            {children}
-          </LenisScroller>
+          <LenisScroller>{children}</LenisScroller>
         </main>
       </body>
     </html>
