@@ -1,6 +1,7 @@
+import { PriceCardType } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-export default function PriceCard({ credit, index }: { credit: any; index: number }) {
+export default function PriceCard({ credit, index }: { credit: PriceCardType; index: number }) {
   return (
     <div
       className={cn(

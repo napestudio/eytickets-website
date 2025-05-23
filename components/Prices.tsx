@@ -14,7 +14,7 @@ export default function Prices() {
         <p className="text-black font-semibold text-center">
           En EY Tickets comprás creditos por adelantado y usás uno por cada
           ticket QP que vendas o envíes. Los créditos no vencen y se compran
-          fácilmente desde la sección "Créditos" en la web.
+          fácilmente desde la sección {"Créditos"} en la web.
         </p>
       </div>
       <div className="container mx-auto py-20">
