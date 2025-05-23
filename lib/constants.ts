@@ -1,4 +1,6 @@
-export const faqs = [
+import { FaqType, PriceCardType } from "./types";
+
+export const faqs: FaqType[] = [
   {
     question: "¿Cómo abono el servicio?",
     answer: "Para abonar el servicio, puedes utilizar cualquiera de nuestros métodos de pago disponibles en la sección de pagos.",
@@ -21,7 +23,7 @@ export const faqs = [
   },
 ];
 
-export const credits = [
+export const credits: PriceCardType[] = [
   {
     id: 1,
     amount: 100,

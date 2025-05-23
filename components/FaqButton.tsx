@@ -1,11 +1,13 @@
 "use client";
-import { cn } from "@/lib/utils";
+
 import { useState } from "react";
+import { cn } from "@/lib/utils";
+import { FaqType } from "@/lib/types";
 
 export default function FaqButton({
   props,
 }: {
-  props: { question: string; answer: string };
+  props: FaqType;
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
