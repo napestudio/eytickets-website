@@ -27,8 +27,8 @@ export default function Home() {
       <section className="min-h-screen bg-gradient-to-t from-black from-0% to-primary to-70%">
         <Prices />
       </section>
-      <section className="bg-gray-200">
-        <div className="container mx-auto py-20"></div>
+      <section className="bg-gray-200 py-20">
+        <div className="container mx-auto"></div>
       </section>
       <footer className="bg-gradient-to-b from-black from-0% via-black via-40% to-primary to-120%">
         <Footer />
