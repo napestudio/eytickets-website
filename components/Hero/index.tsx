@@ -1,4 +1,4 @@
-import Experience from "./Experience";
+import Experience from "./experience";
 import "./hero.css";
 
 export default function HeroHome() {
