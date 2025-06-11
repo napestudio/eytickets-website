@@ -37,7 +37,15 @@ export default function Footer() {
                 key={index}
                 className="w-full border-b-2 border-gray-600 pb-2"
               >
-                <FaqButton props={faq} />
+                <FaqButton
+                  header={
+                    <h3 className="text-primary uppercase font-bold">
+                      {faq.question}
+                    </h3>
+                  }
+                >
+                  <p className="text-white text-balance">{faq.answer}</p>
+                </FaqButton>
               </li>
             ))}
           </ul>

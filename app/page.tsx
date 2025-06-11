@@ -2,6 +2,8 @@ import Features from "@/components/Features";
 import HeroHome from "@/components/Hero";
 import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
+import Slider from "@/components/Slider";
+
 
 export default function Home() {
   return (
@@ -15,14 +17,12 @@ export default function Home() {
             Gestión de Eventos, en segundos
           </h2>
           <Features />
+        </div>
           {/* por que elegirnos */}
           <h2>Por qué elegirnos</h2>
-          <div className="w-full h-[500px] border border-primary rounded-4xl relative">
-            <div className="absolute h-full -left-10 flex items-center">
-              <div className="bg-black rounded-full w-[100px] h-[100px] relative border border-primary"></div>
-            </div>
+          <div className="w-full h-[500px] relative">
+            <Slider />
           </div>
-        </div>
       </section>
       <section className="min-h-screen bg-gradient-to-t from-black from-0% to-primary to-70%">
         <Prices />
