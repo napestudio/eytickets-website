@@ -6,10 +6,10 @@ type CardProps = {
 
 export default function Card({ tag, title, description }: CardProps) {
   return (
-    <div className="bg-white rounded-2xl p-6 max-w-md shadow-md m-4">
-      <p className="text-sm font-bold text-teal-500">{tag}</p>
-      <h3 className="text-xl font-black text-black mt-2">{title}</h3>
-      <p className="text-sm text-gray-700 mt-4">{description}</p>
-    </div>
+    <>
+      <p className="text-sm font-bold text-white">{tag}</p>
+      <h3 className="text-2xl font-normal text-primary mt-2">{title}</h3>
+      <p className="text-sm text-primary mt-5">{description}</p>
+    </>
   );
 }

@@ -4,7 +4,6 @@ import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
 import Slider from "@/components/Slider";
 
-
 export default function Home() {
   return (
     <>
@@ -12,17 +11,43 @@ export default function Home() {
         <HeroHome />
       </div>
       <section className="bg-gradient-to-t from-[#000000] to-[#3ADDBE] py-16 md:py-32">
-        <div className="container mx-auto">
-          <h2 className="text-center text-black md:text-8xl">
-            Gestión de Eventos, en segundos
+        <div className="mx-auto">
+          <h2 className="text-4xl uppercase text-black font-black text-center mb-20">
+            Gestión de entradas, <span className="font-normal"> en segundos</span>
           </h2>
           <Features />
         </div>
-          {/* por que elegirnos */}
-          <h2>Por qué elegirnos</h2>
-          <div className="w-full h-[500px] relative">
-            <Slider />
+      </section>
+      <section className="bg-black">
+        {/* por que elegirnos */}
+        <div className="max-w-[80vw] md:max-w-[45vw] mx-auto space-y-10">
+          <div className="relative  p-4 rounded-br-3xl rounded-bl-3xl text-center">
+            {/* <svg
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              viewBox="0 0 520 520"
+              className="absolute top-0 -left-7 w-[30px] h-[30px] rotate-90"
+            >
+              <path d="M0,0h520C232.82,0,0,232.82,0,520V0Z" />
+            </svg> */}
+            <h2 className="text-4xl uppercase text-white font-black">
+              Por qué elegirnos
+            </h2>
+            {/* <svg
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              viewBox="0 0 520 520"
+              className="absolute top-0 -right-7 w-[30px] h-[30px]"
+            >
+              <path d="M0,0h520C232.82,0,0,232.82,0,520V0Z" />
+            </svg> */}
           </div>
+        </div>
+        <div className="w-full py-20">
+          <Slider />
+        </div>
       </section>
       <section className="min-h-screen bg-gradient-to-t from-black from-0% to-primary to-70%">
         <Prices />
