@@ -57,22 +57,22 @@ export default function Slider() {
             </div>
           </div>
         </div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          id="Capa_1"
-          version="1.1"
-          viewBox="0 0 1301.3 500.94"
-          className="w-full h-[200px] md:h-[300px] lg:h-[400px] mx-auto rotate-90 md:rotate-none"
-        >
-          <path
-            className="color-primary fill-primary stroke-black stroke-4 z-50 "
-            d="M1220.14,250.46c0,35.41,23.1,65.42,55.05,75.79,14.58,4.73,24.61,18.09,24.61,33.42v102.2c0,20.74-16.82,37.56-37.56,37.56H39.07c-20.74,0-37.56-16.82-37.56-37.56v-100.86c0-15.75,9.95-29.94,24.92-34.86,31.79-10.46,54.74-40.39,54.74-75.69s-22.95-65.22-54.74-75.68c-14.96-4.92-24.92-19.11-24.92-34.86V39.06C1.51,18.32,18.33,1.5,39.07,1.5h1223.17c20.74,0,37.56,16.82,37.56,37.56v100.86c0,15.75-9.95,29.94-24.92,34.86-31.79,10.46-54.74,40.4-54.74,75.68h0Z"
-          />
-        </svg>
+        <div className="w-full aspect-square md:aspect-auto md:h-[400px] mx-auto">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Capa_1"
+            version="1.1"
+            viewBox="0 0 1301.3 500.94"
+            className="w-full h-full"
+          >
+            <path
+              className="color-primary fill-primary stroke-black stroke-4 z-50 "
+              d="M1220.14,250.46c0,35.41,23.1,65.42,55.05,75.79,14.58,4.73,24.61,18.09,24.61,33.42v102.2c0,20.74-16.82,37.56-37.56,37.56H39.07c-20.74,0-37.56-16.82-37.56-37.56v-100.86c0-15.75,9.95-29.94,24.92-34.86,31.79-10.46,54.74-40.39,54.74-75.69s-22.95-65.22-54.74-75.68c-14.96-4.92-24.92-19.11-24.92-34.86V39.06C1.51,18.32,18.33,1.5,39.07,1.5h1223.17c20.74,0,37.56,16.82,37.56,37.56v100.86c0,15.75-9.95,29.94-24.92,34.86-31.79,10.46-54.74,40.4-54.74,75.68h0Z"
+            />
+          </svg>
+        </div>
       </SwiperSlide>
-      <SwiperSlide
-        className="relative"
-      >
+      <SwiperSlide className="relative">
         <div className="absolute inset-0  z-50">
           <div className="h-full flex flex-col md:flex-row ">
             <div className="w-full md:w-3/7 pl-20 flex flex-col justify-center items-center">
@@ -107,7 +107,7 @@ export default function Slider() {
           className="w-full h-[200px] md:h-[600px] lg:h-[400px] mx-auto"
         >
           <path
-            className="color-primary stroke-primary stroke-4 overflow-hidden z-50"
+            className="color-primary stroke-primary stroke-6 overflow-hidden z-50"
             d="M1220.14,250.46c0,35.41,23.1,65.42,55.05,75.79,14.58,4.73,24.61,18.09,24.61,33.42v102.2c0,20.74-16.82,37.56-37.56,37.56H39.07c-20.74,0-37.56-16.82-37.56-37.56v-100.86c0-15.75,9.95-29.94,24.92-34.86,31.79-10.46,54.74-40.39,54.74-75.69s-22.95-65.22-54.74-75.68c-14.96-4.92-24.92-19.11-24.92-34.86V39.06C1.51,18.32,18.33,1.5,39.07,1.5h1223.17c20.74,0,37.56,16.82,37.56,37.56v100.86c0,15.75-9.95,29.94-24.92,34.86-31.79,10.46-54.74,40.4-54.74,75.68h0Z"
           />
         </svg>
