@@ -1,14 +1,11 @@
 import { cn } from "@/lib/utils";
-import { useCallback, useState } from "react";
 
 type CardProps = {
   tag: string;
   title: string;
   description: string;
-  style: any;
+  style: Record<string, string>;
 };
-
-
 
 export default function Card({ tag, title, description, style }: CardProps) {
   

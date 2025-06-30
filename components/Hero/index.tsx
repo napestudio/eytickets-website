@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Experience from "./experience";
+// import Experience from "./experience";
 import "./hero.css";
 
 export default function HeroHome() {

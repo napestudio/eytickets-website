@@ -1,6 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
-import { Swiper, SwiperSlide, useSwiperSlide } from "swiper/react";
+import {  useState } from "react";
+import { Swiper, SwiperSlide, } from "swiper/react";
 
 import "swiper/css";
 import Card from "./Card";
@@ -17,13 +17,9 @@ type SliderProps = {
 };
 
 export default function Slider({ features }: SliderProps) {
-  const swiperSlide = useSwiperSlide();
   const [isSlideActive, setIsSlideActive] = useState<number | null>(null);
 
-  useEffect(() => {
-    console.log("swiperSlide", swiperSlide);
-  }, []);
-
+  
   return (
     <Swiper
       spaceBetween={70}

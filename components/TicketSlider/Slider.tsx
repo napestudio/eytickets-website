@@ -1,12 +1,11 @@
 "use client";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import { Navigation, EffectCoverflow } from "swiper/modules";
 import "swiper/css/effect-coverflow";
 
 export default function Slider() {
-  const swiper = useSwiper();
   return (
     <Swiper
       effect="coverflow"
