@@ -80,24 +80,20 @@ export default function Slider() {
         <div className="absolute inset-0 z-50 md:block hidden">
           <div className="h-full flex flex-col md:flex-row gap-2.5">
             <div className="w-full md:w-3/7 pl-20 flex flex-col justify-center items-start md:items-center">
-              <h2 className="font-black text-3xl md:text-5xl text-balance">
-                Super precio
+              <h2 className="pl-20 font-black text-3xl md:text-5xl text-balance">
+                Tu propia ticketera
               </h2>
             </div>
-            <div className="w-full md:w-4/7 md:border-l-4 border-primary md:border-dashed">
+            <div className="w-full md:w-4/7 md:border-l-4 border-primary md:border-dashed pr-10">
               <div className="text-primary text-xs md:text-sm flex flex-col gap-4 justify-center h-full text-balance px-20">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
-                  alias reprehenderit obcaecati esse inventore hic, blanditiis
-                  quasi nemo debitis consequuntur quo? Quasi vitae error
-                  adipisci ratione eum porro autem mollitia.
+                  Desde EyTickets te creamos un sitio a medida sin cargo para
+                  que puedas vender entradas para tus eventos con tu propia
+                  identidad.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti facere quod vitae itaque molestiae tempore eaque?
-                  Quaerat ea accusamus laudantium molestias odio. Neque
-                  exercitationem, reprehenderit tempora porro nisi quia
-                  temporibus.
+                  Tu sitio web personalizado cuenta con el listado de eventos,
+                  página de preguntas frecuentes y checkout.
                 </p>
               </div>
             </div>
