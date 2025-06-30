@@ -7,9 +7,9 @@ import Slider from "@/components/TicketSlider/Slider";
 export default function Home() {
   return (
     <>
-      <div>
+      {/* <div>
         <HeroHome />
-      </div>
+      </div> */}
       <section className="bg-gradient-to-t from-[#000000] to-[#3ADDBE] py-16 md:py-32">
         <div className="mx-auto">
           <h2 className="text-4xl font-sans uppercase text-black font-black text-center mb-20">
@@ -49,7 +49,7 @@ export default function Home() {
           <Slider />
         </div>
       </section>
-      <section className="min-h-screen bg-gradient-to-t from-black from-0% to-primary to-70%">
+      {/* <section className="min-h-screen bg-gradient-to-t from-black from-0% to-primary to-70%">
         <Prices />
       </section>
       <section className="bg-gray-200 py-20">
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
       <footer className="bg-gradient-to-b from-black from-0% via-black via-40% to-primary to-120%">
         <Footer />
-      </footer>
+      </footer> */}
     </>
   );
 }
