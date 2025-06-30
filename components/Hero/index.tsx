@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Experience from "./experience";
 import "./hero.css";
 
@@ -10,8 +11,9 @@ export default function HeroHome() {
           <h1 className="big_title font-black inline-flex">entradas</h1>
         </div>
       </div>
-      <div className="hidden absolute top-0 w-full h-full inset-0">
-        <Experience />
+      <div className="absolute bottom-0 right-0 mr-20">
+        {/* <Experience /> */}
+        <Image src={'/frame.png' } alt="" width={100} height={100} />
       </div>
     </div>
   );
