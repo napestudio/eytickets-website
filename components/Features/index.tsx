@@ -5,19 +5,19 @@ export const featuresList = [
     tag: "VENTA ONLINE",
     title: "Vende entradas SIN comisiones ni cargo por servicio.",
     description:
-      "A diferencia de otras ticketeras, no te vamos a cobrar comisión por venta, abonás un costo fijo. Además, cobrás al instante en tu cuenta con cada venta realizada.",
+      "Publicá y vendé tus entradas al instante, sin costos ocultos ni intermediarios.",
   },
   {
-    tag: "ACCESO RÁPIDO",
-    title: "Crea tu evento en menos de 5 minutos.",
+    tag: "SIN SORPRESAS",
+    title: "Abonás siempre un costo fijo.",
     description:
-      "Solo tenés que completar los datos básicos, subir una imagen y definir las entradas. No necesitás conocimientos técnicos para empezar.",
+      "Pagás una tarifa clara y estable, sin cargos adicionales por venta.",
   },
   {
-    tag: "GESTIÓN INTELIGENTE",
-    title: "Control total de tus ventas y asistentes.",
+    tag: "MANEJÁ TU DINERO",
+    title: "Cobrás al instante en tu cuenta con cada venta realizada.",
     description:
-      "Visualizá estadísticas en tiempo real, descargá reportes y validá entradas desde cualquier dispositivo con nuestro sistema integrado.",
+      "Recibí el dinero de tus ventas al momento, sin demoras ni retenciones.",
   },
 ];
 
