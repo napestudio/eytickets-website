@@ -2,33 +2,36 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { FaqType } from "@/lib/types";
 
-export default function FaqButton({
-  props,
-}: {
-  props: FaqType;
-}) {
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
+type FaqButtonProps = {
+  header: React.ReactNode;
+  children: React.ReactNode;
+  defaultOpen?: boolean;
+};
+
+export default function FaqButton({ header, children, defaultOpen = false }: FaqButtonProps) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+
   return (
-    <>
-      <button className="cursor-pointer w-full" onClick={handleClick}>
-        <div className="flex justify-between">
-          <h3 className="text-primary w-full uppercase font-bold text-left">{props.question}</h3>
-          <span className="text-white">{isOpen ? "-" : "+"}</span>
-        </div>
+    <div className="w-full py-2">
+      <button
+        className="w-full flex justify-between items-center text-left cursor-pointer"
+        onClick={() => setIsOpen((prev) => !prev)}
+      >
+        <div className="w-full">{header}</div>
+        <span className="text-white text-xl transition-transform duration-200">
+          {isOpen ? "-" : "+"}
+        </span>
       </button>
+
       <div
         className={cn(
-          `overflow-hidden`,
-          isOpen ? "h-auto" : "h-0"
+          "transition-all duration-300 overflow-hidden text-sm text-white",
+          isOpen ? "max-h-96 mt-2 opacity-100" : "max-h-0 opacity-0"
         )}
       >
-        <p className="text-white text-sm mt-2">{props.answer}</p>
+        <div className="pt-1">{children}</div>
       </div>
-    </>
+    </div>
   );
 }
