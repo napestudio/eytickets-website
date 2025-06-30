@@ -2,7 +2,7 @@ import Features from "@/components/Features";
 import HeroHome from "@/components/Hero";
 import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
-import Slider from "@/components/Slider";
+import Slider from "@/components/TicketSlider/Slider";
 
 export default function Home() {
   return (

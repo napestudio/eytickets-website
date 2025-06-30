@@ -7,7 +7,7 @@ export default function HeroHome() {
       <div className="absolute top-0 w-full h-full inset-0 grid place-items-center">
         <div>
           <p className="text-primary font-bold text-5xl -mb-5">Eventos</p>
-          <h1 className="big_title font-black inline-flex">tickets</h1>
+          <h1 className="big_title font-black inline-flex">entradas</h1>
         </div>
       </div>
       <div className="hidden absolute top-0 w-full h-full inset-0">
