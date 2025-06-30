@@ -1,6 +1,6 @@
 "use client";
-import {  useState } from "react";
-import { Swiper, SwiperSlide, } from "swiper/react";
+import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import Card from "./Card";
@@ -19,22 +19,24 @@ type SliderProps = {
 export default function Slider({ features }: SliderProps) {
   const [isSlideActive, setIsSlideActive] = useState<number | null>(null);
 
-  
   return (
     <Swiper
       spaceBetween={70}
-      slidesPerView={2}
+      slidesPerView={1.1}
+      breakpoints={{
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 70,
+        },
+      }}
       onSlideChange={(swiper) => {
-        console.log("slide change", swiper.activeIndex);
         setIsSlideActive(swiper.activeIndex);
       }}
       onSwiper={(swiper) => {
-        console.log("on start", swiper.activeIndex);
         setIsSlideActive(swiper.activeIndex);
       }}
       centeredSlides={true}
       grabCursor={true}
-      
       className="select-none flex items-center"
     >
       {features.map((feature, index) => {
@@ -53,7 +55,10 @@ export default function Slider({ features }: SliderProps) {
           <SwiperSlide
             key={index}
             //even:rounded-[4rem] even:rounded-br-none even:bg-[#EDEDED]
-            className={cn("relative min-h-[320px] p-20 p-6 shadow-md transition-all duration-500 ease-in-out", dada)}
+            className={cn(
+              "relative min-h-[320px] p-20 p-6 shadow-md transition-all duration-500 ease-in-out",
+              dada
+            )}
           >
             <Card
               tag={feature.tag}
