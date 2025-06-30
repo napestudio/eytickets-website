@@ -13,13 +13,13 @@ export default function Navbar() {
         <Image src="/logo.png" alt="EyTickets logo" width={294} height={30} />
       </div>
       <div>
-        <nav className="flex justify-end space-x-8">
+        {/* <nav className="flex justify-end space-x-8">
           {navItems.map((item) => (
             <a key={item.name} href={item.href} className="text-white">
               {item.name}
             </a>
           ))}
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
