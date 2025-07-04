@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 w-full z-10 py-4 px-12 flex justify-between items-center">
       <div>
-        <Image src="/logo.png" alt="EyTickets logo" width={294} height={30} />
+        <Image src="/logo.svg" alt="EyTickets logo" width={294} height={30} />
       </div>
       <div>
         {/* <nav className="flex justify-end space-x-8">
