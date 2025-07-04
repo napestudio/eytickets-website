@@ -85,7 +85,7 @@ export default function Slider() {
               </h2>
             </div>
             <div className="w-full md:w-4/7 md:border-l-4 border-primary md:border-dashed pr-10">
-              <div className="text-primary text-xs md:text-sm flex flex-col gap-4 justify-center h-full text-balance px-20">
+              <div className="text-primary text-md md:text-md flex flex-col gap-4 justify-center h-full text-balance px-20">
                 <p>
                   Desde EyTickets te creamos un sitio a medida sin cargo para
                   que puedas vender entradas para tus eventos con tu propia
@@ -119,7 +119,7 @@ export default function Slider() {
               </h2>
             </div>
             <div className="w-full md:w-4/7 md:border-l-4 border-primary md:border-dashed">
-              <div className="text-primary text-sm md:text-sm flex flex-col gap-4 justify-center h-full text-balance">
+              <div className="text-primary text-md md:text-md flex flex-col gap-4 justify-center h-full text-balance">
                 <p>
                   Desde EyTickets te creamos un sitio a medida sin cargo para
                   que puedas vender entradas para tus eventos con tu propia
