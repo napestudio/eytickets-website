@@ -80,7 +80,7 @@ export default function Slider() {
         <div className="absolute inset-0 z-50 md:block hidden">
           <div className="h-full flex flex-col md:flex-row gap-2.5">
             <div className="w-full md:w-3/7 pl-20 flex flex-col justify-center items-start md:items-center">
-              <h2 className="pl-20 font-black text-3xl md:text-5xl text-balance">
+              <h2 className="pl-20 font-black text-white text-3xl md:text-5xl text-balance">
                 Tu propia ticketera
               </h2>
             </div>
@@ -114,7 +114,7 @@ export default function Slider() {
         <div className="md:hidden block border-2 p-8 md:w-max border-primary rounded-xl max-w-[80svw] mx-auto">
           <div className="h-full flex flex-col md:flex-row gap-2.5 ">
             <div className="w-full md:w-3/7 flex flex-col justify-center items-start">
-              <h2 className="font-black text-3xl md:text-5xl text-balance">
+              <h2 className="font-black text-3xl text-white md:text-5xl text-balance">
                 Tu propia ticketera
               </h2>
             </div>
