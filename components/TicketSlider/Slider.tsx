@@ -79,7 +79,7 @@ export default function Slider() {
       <SwiperSlide className="relative">
         <div className="absolute inset-0 z-50 md:block hidden">
           <div className="h-full flex flex-col md:flex-row gap-2.5">
-            <div className="w-full md:w-3/7 pl-20 flex flex-col justify-center items-start md:items-center">
+            <div className="w-full md:w-3/7 pl-[5vw] flex flex-col justify-center items-start md:items-center">
               <h2 className="pl-20 font-black text-white text-3xl md:text-5xl text-balance">
                 Tu propia ticketera
               </h2>
