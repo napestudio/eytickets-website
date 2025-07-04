@@ -45,7 +45,7 @@ export default function Home() {
             </svg> */}
           </div>
         </div>
-        <div className="w-full py-20">
+        <div className="container mx-auto py-20">
           <Slider />
         </div>
       </section>
