@@ -12,7 +12,7 @@ export default function Home() {
       </div> */}
       <section className="bg-gradient-to-t from-[#000000] to-[#3ADDBE] py-16 md:py-32">
         <div className="mx-auto">
-          <h2 className="text-4xl font-sans uppercase text-black font-black text-center mb-20">
+          <h2 className="text-4xl uppercase text-black font-black text-center mb-20">
             Gestión de entradas, <span className="font-normal"> en segundos</span>
           </h2>
           <Features />

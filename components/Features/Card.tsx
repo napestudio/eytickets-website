@@ -18,7 +18,7 @@ export default function Card({ tag, title, description, style }: CardProps) {
         <h3 className={cn(style.title, "text-2xl font-normal mt-2")}>
           {title}
         </h3>
-        <p className={cn(style.text, "text-sm mt-5")}>{description}</p>
+        <p className={cn(style.text, "text-md mt-5")}>{description}</p>
       </div>
     </>
   );
